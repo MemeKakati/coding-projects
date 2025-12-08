@@ -11,6 +11,7 @@ print(random_letter)
 # user input on password length
 pass_len = int(input("How long do you want your password? "))
 
+#for loop to create password
 for letter in letters:
     for number in numbers:
         for symbol in symbols:
